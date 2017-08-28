@@ -1,0 +1,271 @@
+@font-face {
+
+    font-family: 'dincregular';
+
+    src: url('../fonts/dinc-webfont.eot');
+
+    src: url('../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+
+         url('../fonts/dinc-webfont.woff') format('woff'),
+
+         url('../fonts/dinc-webfont.ttf') format('truetype'),
+
+         url('../fonts/dinc-webfont.svg#dincregular') format('svg');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+
+	display: block;
+
+}
+
+
+
+body{
+
+	overflow-y: scroll;
+
+}
+
+
+
+p {
+
+	font-family: 'dincregular';
+
+	font-size: 22px;
+
+}
+
+
+
+a{
+
+	outline: none;
+
+}
+
+
+
+.active{
+
+	color: #c1c1c1;
+
+}
+
+
+
+header {
+
+	background-image: url(../../images/nav-bar.jpg);
+
+	height: 38px;
+
+	width: 960;
+
+}
+
+
+
+header nav{
+
+	position: relative;
+
+	z-index: 3;
+
+	top: 5px;
+
+}
+
+
+
+header nav li{
+
+	display: inline;	
+
+	margin-right: 19px;
+
+	font-weight: bold;
+
+}
+
+#nav-image-hover:hover{
+
+	/*opacity: 0.5;*/
+
+}
+
+
+
+#dot-margin {
+
+    top:-10px;	
+
+}
+
+
+
+nav ul{
+
+	padding-left: 11px;
+
+}
+
+
+
+nav a{
+
+	text-decoration: none;
+
+	color: #000000;
+
+	padding: 0px;
+
+}
+
+
+
+nav a:hover{
+
+	text-decoration: underline;
+
+	color: #000000;
+
+}
+
+
+
+nav a:active{
+
+	text-decoration: underline;
+
+	color: #000000;
+
+}
+
+
+
+#page-container{
+
+	width: 960px;
+
+	height: 600px;
+
+	margin: 0px auto;
+
+	position: relative;
+
+}
+
+
+
+/*------------------------Page Content---------------------*/
+
+
+
+.content {
+
+	width: 960px;
+
+	height: auto;
+
+}
+
+
+
+#shelves-image {
+
+	margin-top: 20px;	
+
+}
+
+
+
+#what-is-pcm-link {
+
+	position: absolute;
+
+	top: 160px;
+
+	left: 66px;
+
+	width: 92px;
+
+	height: 290px;
+
+}
+
+
+
+#research-and-publication-link {
+
+	position: absolute;
+
+	top: 160px;
+
+	left: 316px;
+
+	width: 92px;
+
+	height: 290px;	
+
+}
+
+
+
+#testimonials-link {
+
+	position: absolute;
+
+	top: 161px;
+
+	left: 568px;
+
+	width: 92px;
+
+	height: 290px;
+
+}
+
+
+
+#how-to-acquire-pcm-skills-link {
+
+	position: absolute;
+
+	top: 161px;
+
+	left: 819px;
+
+	width: 92px;
+
+	height: 290px;
+
+}
+
+.catalog-link {
+	background:#000;
+	width:200px;
+	height:300px;
+	position:absolute;
+	top:200px;
+	left:200px;	
+}
+
+
+
+#preload { height: 0; overflow: hidden; }
+
+
+
+
+
+
+

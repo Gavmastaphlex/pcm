@@ -1,0 +1,80 @@
+ul {
+
+	list-style: none;
+
+}
+
+
+
+#fallback {
+
+	display: none;
+
+}
+
+
+
+.audioButton {
+
+	background: url("../../images/btn.png") no-repeat 0 0px;
+
+	display: block;
+
+	cursor: pointer;
+
+	margin-top: -3px;
+
+	margin-left: -5px;
+
+	padding: 10px 10px 10px 25px;
+
+	width: 200px;
+
+	height: 20px;
+
+}
+
+
+
+.audioButton:hover {
+
+	background-position: 0 -56px;
+
+}
+
+
+
+.audioButton.playing {
+
+	background-position: 0 -111px;
+
+}
+
+
+
+.audioButton.playing:hover {
+
+	background-position: 0 -111px;
+
+}
+
+
+
+.audioButton.loading,
+
+.audioButton.loading:hover {
+
+	background: url("../../images/btn.png") no-repeat 0 0px;
+
+	text-indent: 0!important;
+
+}
+
+
+
+#player {
+
+	display: none;
+
+}
+

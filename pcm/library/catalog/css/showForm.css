@@ -1,0 +1,13 @@
+#documentSubmitFormContainer {
+	display: block;
+}
+
+#form-close-button {
+	display: block;
+}
+
+#fade {
+	position: relative;
+	left: 402px;
+	top: -104px;
+}

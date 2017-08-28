@@ -1,0 +1,72 @@
+PCM library video player
+
+To get the video player to play to how we wanted was pretty tricky, I used the html5 video tag and javascript.
+
+When saving a new video you will have to specify the three meme types for cross browser compatibility which are .mp4, .ogg and .webm.
+Save the videos with the exact same name and place as each other, but with the different meme type.
+i.e.
+video.mp4
+video.ogg
+video.webm.
+The script works with an if and else test, if the browser doesn't recognise the meme type it will look for the next so on and so on until the correct type has been found. 
+If you look at the other videos in the code you should get an idea of how they are implemented and adding a new one in shouldnt be to hard.
+Hopefully the scripts wont have to be changed at all, you will just need to change the contet and maybe some styling. 
+
+To get the names to change color when the button is clicked you will have to go into the button-color-change.js file. 
+This looks like a pretty intimidating file due to long lists of code, however what it is doing s really simple.
+It is taking the button you are clicking which will have a unique id, and changing the css to a different color.
+You will want to change the css for both the interviewee and the title, so add these both into the jquery selector.
+
+You will also want to change the other butons to black when a button is clicked.
+This is done the same way as the technique above, you will have to specify everything EXCEPT the button which is beeing clicked, this is where the mountains of code comes from.
+
+$("buttons which are being clicked").click(function(){ 
+	$("buttons which are being changed to red").css("color","red");
+	$("everyother button which is not being clicked").css("color","red");
+});
+
+Other then those two things the video player hopefully should be alright for you to pick up.
+The Functionallity is there its just implementing new things.
+
+PCM library catalog.
+
+This is another thing which looks intimidating through mountains of code but when comes down to it is very basic. 
+
+everything is pretty much done in lists, within the list you can add images, links etc jus like normal. 
+I have added comments in the code so you will see where they start finish etc. 
+It shouldnt be hard fot you to get your head around.
+
+Although some functionalty the plugin doesn't have.
+I have combined both my knowledge of jquery with a plug in.
+My jquery is just like in the video player, It displays a certain element judged on which button is clicked and hides the others if not. 
+This is all saved in hide.js.
+
+
+PCM STORE.
+
+to access the CMS you will need to log in to http://pcmoceania.com/store/backdoor/session/handle/create/%7Cbackdoor/
+with luvly and kapitiview11
+
+all the styling of the store should be complete now, however if you do need to change the css or add images then on the server under /store/themes/default/resources you will find what you need. 
+
+Everything else is done in the content managment system through layouts, pages and partials. 
+There is so much good documintation on lemonstand, hopefully everything is ready to go and you dont have to touch any of that content though!
+
+When we get the DPS you will need to create a new payment method under shop; payment methods
+then add a new payment method and the rest of the process which goes with it.
+
+You will also need to change the lemonstand account over to commercial at some point, i'm not to sure how to do this but it shouldnt be hard. 
+
+SPACE
+
+space should be pretty easy to pick up on. 
+
+There's a lot of jquery/javascript that has been used. The trickiest was probably the project sliding pages. 
+This script wont have to change you will just have to change the content / styling if anything. 
+
+So sorry but no alt or title tags have been added to any imagery yet, ive picked up a bad habbit of leaving it all up to the end which is a ridiculous way to work!
+
+
+If you ever need to contact me feel free
+digbyluxton1993@gmail.com
+

@@ -1,0 +1,595 @@
+@font-face {
+    font-family: 'dincregular';
+    src: url('../../fonts/dinc-webfont.eot');
+    src: url('../../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/dinc-webfont.woff') format('woff'),
+         url('../../fonts/dinc-webfont.ttf') format('truetype'),
+         url('../../fonts/dinc-webfont.svg#dincregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+	display: block;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+p {
+	font-family: 'dincregular';
+	font-size: 22px;
+}
+
+a{
+	outline: none;
+}
+
+.active{
+	color: #c1c1c1;
+}
+
+header {
+	background-image: url(../../../images/nav-bar.jpg);
+	height: 38px;
+	width: 960;
+}
+
+header nav{
+	position: relative;
+	z-index: 3;
+	top: 5px;
+}
+
+header nav li{
+	display: inline;	
+	margin-right: 19px;
+	font-weight: bold;
+}
+#nav-image-hover:hover{
+	/*opacity: 0.5;*/
+}
+
+#dot-margin {
+    top:5px;	
+}
+
+.nav-home {
+	position:absolute;
+	left:11px;
+}
+
+.nav-experience {
+	position:absolute;
+	left:106px;
+}
+
+.nav-learn {
+	position:absolute;
+	left:404px;
+}
+
+.nav-teach {
+	position:absolute;
+	left:404px;
+}
+
+.nav-library {
+	position:absolute;
+	left:270px;
+}
+
+.nav-shop {
+	position:absolute;
+	left:615px;
+}
+
+.nav-contact {
+	position:absolute;
+	left:705px;
+}
+
+.nav-dot-orange {
+	position:absolute;
+	left:785px;
+}
+
+.nav-dot-brown {
+	position:absolute;
+	left:813px;
+}
+
+.nav-dot-purple {
+	position:absolute;
+	left:841px;
+}
+
+.nav-dot-red {
+	position:absolute;
+	left:869px;
+}
+
+.nav-dot-yellow {
+	position:absolute;
+	left:897px;
+}
+
+.nav-dot-blue {
+	position:absolute;
+	left:925px;
+}
+
+nav ul{
+	padding-left: 11px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+nav a:active{
+	text-decoration: underline;
+	color: #000000;
+}
+
+#page-container{
+	width: 960px;
+	height: 600px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*------------------------Page Content---------------------*/
+
+.content {
+	width: 960px;
+	height: auto;
+	margin-top: 20px;	
+}
+
+#testamonials{
+	position:absolute;
+	top: 60px;
+	left: 0px;
+}
+
+
+#downloadable-info-rollover{
+	position: absolute;
+	top: 272px;
+	left: 647px;
+}
+
+#who-is-using-rollover{
+	position: absolute;
+	top: 274px;
+	left: 50px;
+}
+
+#trainingoutcome-rollover{
+	position: absolute;
+	top: 408px;
+	left: 475px;
+}
+
+#seminarfeedbacks-rollover{
+	position: absolute;
+	top: 143px;
+	left: 780px;
+}
+
+#accrediation-rollover{
+	position: absolute;
+	top: 275px;
+	left: 833px;
+}
+
+#testimonial-rollover{
+	position: absolute;
+	top: 144px;
+	left: 188px;
+}
+
+#written-rollover{
+	position: absolute;
+	top: 337px;
+	left: 116px;
+}
+
+
+#tv-popup-link{
+	position: absolute;
+    top: 309px;
+    left: 398px;
+    z-index: 17;
+    width: 153px;
+    color: #FFFFFF;
+}
+
+#screensaver {
+	position: absolute;
+	top: 290px;
+	left: 677px;
+}
+
+#catalogue-link-rollover {
+	position: absolute;
+	top: 308px;
+	left: 676px;
+}
+
+#harddrive {
+	position: absolute;
+	top: 366px;
+	left: 672px;
+}
+
+#personal-movies{
+  position: relative;
+  top: 2px;
+}
+
+#professional-movies{
+  position: relative;
+  top: 2px;
+}
+
+#close-button{
+  position: absolute;
+  left: 879px;
+  top: 142px;
+}
+
+#preload { height: 0; overflow: hidden; }
+
+
+/*-----------------------Tv popup ------------------------------*/
+
+#video-player{
+        padding: 10px;
+        /*background-image: url(images/videoplayer/screen680.png);*/
+        background-repeat: no-repeat;
+        height: 506px;
+        width: 1000px;
+        overflow: hidden !important;
+        position: relative;
+        bottom: 0px;
+        display: none;
+    }
+
+    #video-player li{
+        list-style-type: none;
+    }
+
+    #videoarea {
+    background: none repeat scroll 0 0 transparent;
+    height: 356px;
+    left: 193px;
+    margin: 10px;
+    position: absolute;
+    top: 55px;
+    width: 610px;
+    }
+
+     #video-screen{
+      position: absolute;
+      left: 187px;
+      top: 63px;
+      height: 400px;
+    }
+
+
+     .right-menu{
+        float: left;
+        font-size: 8pt;
+        font-family: 'dincregular', sans-serif;
+        width: 120px;
+    }
+
+    .right-menu:hover, .video-button:hover{
+        color: #8D8D82;
+    }
+
+    .video-button{
+        background: none;
+        border: none;
+        width: 150px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 8pt;
+        font-family: 'dincregular', sans-serif;
+        position: relative;
+        top: -6px;
+        z-index: 4;
+    }
+
+    .video-button-2{
+        background: none;
+        border: none;
+        width: 150px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 8pt;
+        font-family: 'dincregular', sans-serif;
+    }
+    
+    .videos-title{
+        font-size: 8pt;
+        font-family: 'dincregular', sans-serif;
+        margin-left: 9px;
+        cursor: pointer;
+    }
+
+    .videos-title:hover{
+        color: #8D8D82;
+    }
+
+    .video-heading-video{
+        font-size: 8pt;
+        color: #515357;
+    }
+
+    .video-subheading{
+        font-size: 7.8pt;
+    }
+
+    #video-heading-education{
+        position: absolute;
+        top: -1px;
+        left: 46px;
+        color: #000000;
+
+    }
+    #video-heading-personal{
+
+    }
+
+    #video-heading-professional{
+        position: absolute;
+        top: 308px;
+        left: 48px;
+
+    }
+
+    #video-heading-self{
+        position: absolute;
+        top: 446px;
+        left: 47px;
+        color: #000000;
+    }
+    #video-heading-leadership{
+        position: absolute;
+        top: 281px;
+        color: #000000;
+    }
+
+    #video-heading-culture{
+        position: absolute;
+        top: 568px;
+        left: 47px;
+        color: #000000;
+    }
+    #video-heading-team{
+        position: absolute;
+        top: 714px;
+        left: 46px;
+        color: #000000;
+    }
+    #video-heading-sport{
+        position: absolute;
+        top: 897px;
+        left: 46px;
+    }
+    #video-heading-teaching{
+        position: absolute;
+        top: 989px;
+        left: 46px;
+        color: #000000;
+    }
+     #video-heading-9{
+        position: absolute;
+        top: 300px;
+        color: #000000;
+    }
+
+    #tv-panel1{
+        position: absolute;
+        left: 5px;
+        top: 61px;
+        height: 403px;
+        z-index: -1;
+    }
+
+    #tv-panel2{
+      position: absolute;
+      right: 12px;
+      top: 65px;
+      height: 403px;
+      z-index: -1;
+    }
+
+
+    #playlist{
+        z-index: 18;
+        display: inline-block;
+        position: absolute;
+        top: 132px;
+        padding-right: 10px;
+        left: 8px;
+        text-align: left;
+        height: 273px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 138px;
+    }
+
+    #playlist-people{
+        
+        display: inline-block;
+        position: absolute;
+        top: 146px;
+        padding-right: 16px;
+        padding-top: 0px;
+        right: 57px;
+        text-align: left;
+        overflow-x: hidden;
+        width: 123px;
+        overflow-y: auto;
+        height: 265px;
+        z-index: 2;
+    }
+
+
+
+    #playlist-people li{
+        display: block;
+        z-index: 18;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+       #playlist-people li:hover{
+        color: red;
+    }
+
+    /*------------Video-------------*/
+
+    .interview-names{
+        font-size: 8pt;
+        display: none;
+        margin-left: 11px;
+        color: red;
+        margin-top: -3px;
+        padding-bottom: 10px;
+    }
+
+    #education-movies{
+        position: relative;
+        margin-top: 17px;
+      }
+
+      .name-push{
+        margin-left: 6px;
+      }
+
+      #team-4{
+        padding-bottom: 20px;
+      }
+
+      #culture-title{
+        /*margin-bottom: -8px;*/
+      }
+
+      #culture-1{
+        margin-top: 17px;
+      }
+
+/*----------Buttons for the bottom of the tv---------------*/
+
+
+
+.tv-bottom-buttons{
+    color: #000000;
+    z-index: 17;
+    font-size: 9pt;
+    font-family: 'dincregular', sans-serif;
+}
+
+.tv-button-1{
+    position: absolute;
+    left: 221px;
+    top: 428px;
+}
+
+.tv-button-2{
+    position: absolute;
+    left: 322px;
+    top: 428px;
+}
+
+.tv-button-3{
+    position: absolute;
+    left: 415px;
+    top: 428px;
+}
+
+.tv-button-4{
+     position: absolute;
+    left: 511px;
+    top: 428px;
+}
+
+.tv-button-5{
+    position: absolute;
+    left: 611px;
+    top: 428px;
+}
+
+.tv-button-full{
+    position: absolute;
+    left: 711px;
+    top: 429px;
+}
+
+/*--------tv button images -----------*/
+
+.tv-button-image-1{
+    position: absolute;
+    left: 202px;
+    top: 431px;
+    width: 100px;
+}
+
+.tv-button-image-2{
+    position: absolute;
+    left: 297px;
+    top: 431px;
+    width: 100px;
+}
+
+.tv-button-image-3{
+    position: absolute;
+    left: 390px;
+    top: 431px;
+    width: 100px;
+}
+
+.tv-button-image-4{
+    position: absolute;
+    left: 488px;
+    top: 431px;
+    width: 100px;
+}
+
+.tv-button-image-5{
+    position: absolute;
+    left: 585px;
+    top: 431px;
+    width: 100px;
+}
+
+.tv-button-image-full{
+    position: absolute;
+    left: 680px;
+    top: 431px;
+    width: 140px;
+}
+
+.list-left{
+    margin-left: 7px;
+}
+
+
+
+
+
+

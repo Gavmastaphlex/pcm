@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'dincregular';
+    src: url('../fonts/dinc-webfont.eot');
+    src: url('../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinc-webfont.woff') format('woff'),
+         url('../fonts/dinc-webfont.ttf') format('truetype'),
+         url('../fonts/dinc-webfont.svg#dincregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+	display: block;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+p {
+	font-family: 'dincregular';
+	font-size: 22px;
+}
+
+a{
+	outline: none;
+}
+
+.active{
+	color: #c1c1c1;
+}
+
+header {
+	background-image: url(../../../images/nav-bar.jpg);
+	height: 38px;
+	width: 960;
+}
+
+header nav{
+	position: relative;
+	z-index: 3;
+	top: 5px;
+}
+
+header nav li{
+	display: inline;	
+	margin-right: 19px;
+	font-weight: bold;
+}
+#nav-image-hover:hover{
+	/*opacity: 0.5;*/
+}
+
+#dot-margin {
+    top:5px;	
+}
+
+.nav-home {
+	position:absolute;
+	left:11px;
+}
+
+.nav-experience {
+	position:absolute;
+	left:106px;
+}
+
+.nav-learn {
+	position:absolute;
+	left:404px;
+}
+
+.nav-teach {
+	position:absolute;
+	left:404px;
+}
+
+.nav-library {
+	position:absolute;
+	left:270px;
+}
+
+.nav-shop {
+	position:absolute;
+	left:615px;
+}
+
+.nav-contact {
+	position:absolute;
+	left:705px;
+}
+
+.nav-dot-orange {
+	position:absolute;
+	left:785px;
+}
+
+.nav-dot-brown {
+	position:absolute;
+	left:813px;
+}
+
+.nav-dot-purple {
+	position:absolute;
+	left:841px;
+}
+
+.nav-dot-red {
+	position:absolute;
+	left:869px;
+}
+
+.nav-dot-yellow {
+	position:absolute;
+	left:897px;
+}
+
+.nav-dot-blue {
+	position:absolute;
+	left:925px;
+}
+
+nav ul{
+	padding-left: 11px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+
+nav a:active{
+	text-decoration: underline;
+	color: #000000;
+}
+
+#page-container{
+	width: 960px;
+	height: 600px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*------------------------Page Content---------------------*/
+
+.content {
+	width: 960px;
+	height: auto;
+	margin-top: 20px;	
+}
+
+#what-is-pcm {
+	position:absolute;
+	top: 60px;
+	left: 0px;
+}
+
+#products-rollover{
+	position: absolute;
+	top: 412px;
+	left: 313px;
+}
+
+#pcm-licencees-rollover{
+	position: absolute;
+	top: 211px;
+	left: 53px;
+}
+
+#input-output-rollover{
+	position: absolute;
+	top: 210px;
+	left: 846px;
+}
+
+#input-output-rollover{
+	position: absolute;
+	top: 210px;
+	left: 846px;
+}
+
+#learn-rollover{
+	position: absolute;
+	top: 148px;
+	left: 777px;
+}
+
+#personal-rollover{
+	position: absolute;
+	top: 409px;
+	left: 484px;
+}
+
+#education-rollover{
+	position: absolute;
+	top: 145px;
+	left: 400px;
+}
+
+#kahler-rollover{
+	position: absolute;
+	top: 411px;
+	left: 313px;
+}
+
+#medicine-rollover{
+	position: absolute;
+	top: 146px;
+	left: 128px;
+}
+
+#management-rollover{
+	position: absolute;
+	top: 274px;
+	left: 772px;
+}
+
+#screensaver{
+	position: absolute;
+	top: 292px;
+	left: 161px;
+}
+
+#harddrive{
+	position: absolute;
+	top: 367px;
+	left: 155px;
+}
+
+#catalogue-link-rollover {
+	position: absolute;
+	top: 310px;
+	left: 160px;
+}
+
+#close-button {
+	position: absolute;
+	top: 144px;
+	left: 894px;
+}
+
+#preload { height: 0; overflow: hidden; }
+
+
+

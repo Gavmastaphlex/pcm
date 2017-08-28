@@ -1,0 +1,4 @@
+$(function()
+{
+	$('#right-list').jScrollPane();
+});

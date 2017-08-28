@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'dincregular';
+    src: url('../fonts/dinc-webfont.eot');
+    src: url('../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinc-webfont.woff') format('woff'),
+         url('../fonts/dinc-webfont.ttf') format('truetype'),
+         url('../fonts/dinc-webfont.svg#dincregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+	display: block;
+}
+
+a{
+	outline: none;
+}
+
+header {
+	background-image: url(../images/nav-bar.jpg);
+	height: 38px;
+	width: 960;
+}
+
+header nav{
+	position: relative;
+	z-index: 3;
+	top: 5px;
+}
+
+header nav li{
+	display: inline;	
+	margin-right: 19px;
+	font-weight: bold;
+}
+
+#dot-margin {
+    top:5px;	
+}
+
+nav ul{
+	padding-left: 11px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	padding: 0px;
+}
+
+.nav-home {
+	position:absolute;
+	left:24px;
+}
+
+.nav-experience {
+	position:absolute;
+	left:95px;
+}
+
+.nav-learn {
+	position:absolute;
+	left:404px;
+}
+
+.nav-teach {
+	position:absolute;
+	left:414px;
+}
+
+.nav-library {
+	position:absolute;
+	left:278px;
+}
+
+.nav-shop {
+	position:absolute;
+	left:616px;
+}
+
+.nav-contact {
+	position:absolute;
+	left:693px;
+}
+
+.nav-dot-orange {
+	position:absolute;
+	left:785px;
+}
+
+.nav-dot-brown {
+	position:absolute;
+	left:813px;
+}
+
+.nav-dot-purple {
+	position:absolute;
+	left:841px;
+}
+
+.nav-dot-red {
+	position:absolute;
+	left:869px;
+}
+
+.nav-dot-yellow {
+	position:absolute;
+	left:897px;
+}
+
+.nav-dot-blue {
+	position:absolute;
+	left:925px;
+}

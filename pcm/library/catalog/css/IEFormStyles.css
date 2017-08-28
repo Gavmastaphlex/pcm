@@ -1,0 +1,399 @@
+
+p, div, h1, input, textarea {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+@font-face {
+  font-family: 'HelveticaMedium';
+  src: url('../font/HelveticaNeueLTStd-Md.otf');
+}
+
+#documentSubmitFormContainer {
+	display: none;
+	position: absolute;
+	top: 118px;
+	left: 42px;
+	width: 875px;
+	height: 454px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: rgb(247,246,244); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(247,246,244,1) 0%, rgba(247,246,244,1) 65%, rgba(214,214,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,246,244,1)), color-stop(65%,rgba(247,246,244,1)), color-stop(100%,rgba(214,214,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(247,246,244,1) 0%,rgba(247,246,244,1) 65%,rgba(214,214,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(247,246,244,1) 0%,rgba(247,246,244,1) 65%,rgba(214,214,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(247,246,244,1) 0%,rgba(247,246,244,1) 65%,rgba(214,214,204,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(247,246,244,1) 0%,rgba(247,246,244,1) 65%,rgba(214,214,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6f4', endColorstr='#d6d6cc',GradientType=0 ); /* IE6-9 */
+}
+
+#documentSubmitForm {
+	padding: 30px 40px 60px 50px;
+	margin: 0 auto;
+	width: 770px;
+	height: 100%;
+	position: relative;
+	
+}
+
+#documentSubmitFormContainer p, #documentSubmitFormContainer label  {
+	font-family: HelveticaMedium;
+	font-size: 14px;
+}
+
+#documentSubmitForm input, #documentSubmitForm textarea, #documentSubmitForm select {
+	border: solid;
+	border-width: 1px;
+	border-color: #DDD;
+	
+}
+
+#documentSubmitForm h1 {
+	float: left;
+	margin: 0 0 70px 0;
+	background-image: url('../images/submit-document-form/pcm-library.png');
+	width: 229px;
+	height: 67px;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#documentSubmitForm span {
+	color: red;
+}
+
+#documentSubmitForm textarea {
+	float: right;
+	margin: 0 18px 0 0;
+	width: 487px;
+	height: 100px;
+}
+
+.nameInput input {
+	width: 206px;
+	height: 20px;
+}
+
+.nameInputContainer {
+	float: right;
+	width: 558px;
+	margin: 0 -5px 0 0;
+}
+
+.nameInput {
+	float: left;
+	width: 269px;
+	margin: 0 10px 0 0;
+}
+
+.nameInput label {
+	margin: 0 4px 0 15px;
+}
+
+.halfInputContainer {
+	float: right;
+	width: 569px;
+}
+
+#companyWebsiteInputBox {
+	float: left;
+	width: 237px;
+	margin: 0 10px 0 0;
+}
+
+#companyWebsiteInputBox input {
+	width: 153px;
+	height: 20px;
+}
+
+#companyWebsiteInputBox label {
+	margin: 0 5px 0 10px;
+}
+
+#companyEmailInputBox {
+	float: left;
+	width: 312px;
+	margin: 0 0 0 10px;
+}
+
+#companyEmailInputBox input {
+	width: 187px;
+	height: 20px;
+}
+
+#companyEmailInputBox label {
+	margin: 0 4px 0 5px;
+}
+
+.leftLabels {
+	float: left;
+	padding: 3px 0 0 60px;
+}
+
+.longInputBox {
+	margin: 0 19px 0 0;
+	width: 485px;
+	height: 20px;
+	float: right;
+}
+
+.textareaBox {
+	width: 351px;
+}
+
+.clearDiv {
+	clear: both;
+}
+
+.seperateLine {
+	margin: 0 0 18px 0;
+	height: 100%;
+}
+
+#lineFour label {
+	margin: 0 0 0 67px;
+}
+
+#preview-line {
+	margin: 0 0 8px 0;
+	height: 100%;
+}
+
+#authorNumber {
+	margin: 9px 0 0 106px;
+	width: 80px;
+}
+
+#isAuthor {
+	float: left;
+	margin: 2px 0 0 90px;
+	width: 80px;
+}
+
+#hasPermission {
+	margin: 5px 0 0 0;
+	width: 80px;
+	display: none;
+}
+
+#hasPermissionContainer {
+	float: left;
+	margin: 0 0 0 51px;
+	width: 174px;
+	display: none;
+}
+
+#documentFormat {
+	margin: 7px 0 0 78px;
+	width: 130px;
+}
+
+#documentPreviewSubmit {
+	float: left;
+	margin: 0 0 0 94px;
+	width: 133px;
+	height: 27px;
+	background-color: transparent;
+	color: transparent;
+	border: none;
+	background-image: url('../images/submit-document-form/preview.png');
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+	border: none!important;
+}
+
+#documentFileSubmit {
+	margin: 0 0 0 72px;
+	width: 240px;
+	height: 20px;
+	background-image: none;
+	background-color: white;
+}
+
+#logoFileSubmit {
+	margin: 0 0 0 49px;
+	width: 240px;
+	height: 20px;
+	background-image: none;
+	background-color: white;
+}
+
+#datePublishedInput {
+	margin: 0 0 0 90px;
+	width: 145px;
+	height: 20px;
+	}
+
+#documentSubmitBtn {
+	margin: 0 0 40px 82px;
+	width: 133px;
+	height: 26px;
+	background-color: transparent;
+	color: transparent;
+	border: none!important;
+	background-image: url('../images/submit-document-form/submit-button.png');
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#lineFourteen label {
+	margin: 0 6px 0 38px;
+}
+
+
+#searchDocumentToolbar {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	width: 400px;
+	height: 25px;
+}
+
+#searchDocumentToolbar input, #searchDocumentToolbar select {
+	float: left;
+}
+
+
+#searchInput {
+	width: 200px;
+	margin: 2px 7px 0;
+}
+
+#searchSubmit {
+	width: 68px;
+	height: 23px;
+	background-color: transparent;
+	color: transparent;
+	border: none;
+	background-image: url('../images/search-toolbar/search-button.png');
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#submitDocumentToolbar {
+	position: absolute;
+	bottom: -21px;
+	right: 140px;
+}
+
+#here-button {
+	width: 79px;
+	height: 23px;
+	background-color: transparent;
+	color: transparent;
+	border: none;
+	background-image: url('../images/document-toolbar/here-button.png');
+	text-indent: -9999em;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+	left: 190px;
+	top: -4px;
+}
+
+#catalogue-close-button {
+	cursor: hand;
+	cursor: pointer;
+	position: absolute;
+	top: 89px;
+	left: 896px;	
+}
+
+#form-close-button {
+	display: none;
+	cursor: hand;
+	cursor: pointer;
+	position: absolute;
+	top: 89px;
+	left: 896px;	
+}
+
+#preview-form-fields {
+	margin: 0 0 0 -60px;
+	padding: 10px 60px 5px;
+	width: 770px;
+	background-color: rgb(202, 205, 202);
+}
+
+
+#lineFourteen {
+	margin: 10px 0 18px 0;
+}
+
+#libraryCategory {
+	float: left;
+	margin: 0 0 0 101px;
+	width: 165px;
+}
+
+.library-sub-category {
+	float: left;
+	display: none;
+}
+
+.library-sub-category select {
+	width: 200px;
+}
+
+
+#other-subcategory {
+	display: none;
+}	
+
+.authorsNameInputBoxes {
+	margin: -5px 19px 0 0;
+}
+
+.authorsNameInput {
+	margin: 0 13px 0 0;
+	width: 485px;
+	height: 20px;
+	float: right;
+}
+
+.authorsNameInputBoxes input {
+	margin: 0 0 8px;
+}
+
+#authorsNameTwoInput {
+	display: none;
+}
+
+#authorsNameThreeInput {
+	display: none;
+}
+
+#authorsNameFourInput {
+	display: none;
+}
+
+#authorsNameFiveInput {
+	display: none;
+}
+
+#authorsNameSixInput {
+	display: none;
+}
+
+
+#fade {
+	position: absolute;
+	bottom: 120px;
+	left: 405px;
+}
+
+#form-fade {
+	position: absolute;
+	top: 36px;
+	left: 656px;
+}
+
+.errorMessage {
+	clear: right;
+	color: red;
+}

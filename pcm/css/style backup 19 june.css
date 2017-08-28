@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'dincregular';
+    src: url('../fonts/dinc-webfont.eot');
+    src: url('../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinc-webfont.woff') format('woff'),
+         url('../fonts/dinc-webfont.ttf') format('truetype'),
+         url('../fonts/dinc-webfont.svg#dincregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+	display: block;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+a{
+	outline: none;
+}
+
+.active{
+	color: #c1c1c1;
+}
+
+#page-container{
+	width: 960px;
+	height: 600px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*------------------------Homepage---------------------*/
+
+#homepage-image {
+	width: 960px;
+	height: 230px;
+	margin-top: 10px;
+}
+
+#homepage-text {
+	margin-top: 12.5px;
+	margin-bottom: 12.5px;
+}
+
+.box-left {
+	position: absolute;
+	top: 300px;
+	left: -4px;
+	width: 287px;
+	height: 250px;
+	background-image:url(../images/new-resources.jpg);
+}
+
+.box-right {
+	position: absolute;
+	top: 300px;
+	right: -4px;
+	width: 287px;
+	height: 250px;
+	background-image:url(../images/upcoming-events.jpg);
+}
+
+.centre-text {
+    position: absolute;
+	top: 375px;
+	left: 291px;
+	width: 377px;
+	height: 176px;
+	background-image:url(../images/centre-text.jpg);	
+}
+
+.newuser-bar {
+	width: 960px;
+	margin-top: -17px;
+}
+
+.newuser-text {
+	position: absolute;
+	top: 570px;
+	left: 300px;
+	width:600px;
+	color: #bab9ad;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+#newuser-arrow {
+	float: right;
+	margin-top:280px;
+	margin-left:3px
+}
+
+.logo-slideshow { height: 95px; width: 186px; position:absolute; top:292px; left: 391px; background-image:url(../images/logo01.jpg);}
+
+#preload { height: 0; overflow: hidden; }

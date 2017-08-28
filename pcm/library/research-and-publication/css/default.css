@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'dincregular';
+    src: url('../fonts/dinc-webfont.eot');
+    src: url('../fonts/dinc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinc-webfont.woff') format('woff'),
+         url('../fonts/dinc-webfont.ttf') format('truetype'),
+         url('../fonts/dinc-webfont.svg#dincregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section, article, aside, header, footer, nav, hgroup, figure, figcaption,{
+	display: block;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+p {
+	font-family: 'dincregular';
+	font-size: 22px;
+}
+
+a{
+	outline: none;
+}
+
+.active{
+	color: #c1c1c1;
+}
+
+
+
+#page-container{
+	width: 960px;
+	height: 600px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*------------------------Page Content---------------------*/
+
+.content {
+	width: 960px;
+	height: auto;
+	margin-top: 20px;	
+}
+
+#research-publication {
+	position:absolute;
+	top: 58px;
+	left: 0px;
+}
+
+#academia-rollover{
+	position: absolute;
+	top: 143px;
+	left: 51px;
+}
+
+#articles-rollover{
+	position: absolute;
+	top: 144px;
+	left: 404px;
+}
+
+#downloadedable-info-rollover{
+	position: absolute;
+	top: 271px;
+	left: 132px;
+}
+
+#bookshop-rollover{
+	position: absolute;
+	top: 271px;
+	left: 660px;
+}
+
+#validation-rollover{
+	position: absolute;
+	top: 408px;
+	left: 317px;
+}
+
+#tv-rollover{
+	position: absolute;
+	top: 291px;
+	left: 402px;
+}
+
+#close-button {
+	position: absolute;
+	top: 127px;
+	left: 834px;
+	z-index:100;
+}
+
+#close-button1 {
+	position: absolute;
+	top: 155px;
+	left: 860px;
+	z-index:100;
+}
+
+#ledge {
+	position: absolute;
+	top: 391px;
+	left: 271px;
+	z-index:1000;
+	opacity: 0.9;
+}
+
+#preload { height: 0; overflow: hidden; }

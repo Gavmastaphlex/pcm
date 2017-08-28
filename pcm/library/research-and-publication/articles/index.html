@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html><head>
+
+        <title>Articles</title>
+
+		<meta name="description" content="" />
+		<meta name="keywords" content="" >
+        <meta charset="utf-8" />    
+
+        <link rel="stylesheet" href="css/default.css" />
+        <link rel="stylesheet" href="../../../css/nav.css" />
+        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/allinone_carousel.css"  type="text/css">
+        
+        <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+        <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js" ></script>
+        <script type="text/javascript" src="js/allinone_carousel.js" ></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $(".fancybox").fancybox({
+          openEffect: 'fade',
+          prevEffect: 'fade',
+          nextEffect: 'fade', 
+          closeEffect: 'fade',
+          helpers : {
+                          title : {
+                              type : 'inside'
+                          }
+          }
+        })
+        });
+        </script>
+        <script src="js/jquery-ui.js"></script>
+        <script>
+			jQuery(function() {
+		
+				jQuery('#allinone_carousel_powerful').allinone_carousel({
+					skin: 'powerful',
+					width: 800,
+					height: 321,
+					responsive:true,
+					autoPlay: 0,
+					resizeImages:true,
+					autoHideBottomNav:false,
+					//easing:'easeOutBounce',
+					numberOfVisibleItems:5,
+					elementsHorizontalSpacing:100,
+					elementsVerticalSpacing:40,
+					verticalAdjustment:-20,
+					animationTime:0.6,
+					showPreviewThumbs:false,
+					showCircleTimer:false,
+					nextPrevMarginTop:0,
+					playMovieMarginTop:0,
+					bottomNavMarginBottom:20,
+					autoHideNavArrows:false
+				});
+						
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="page-container">
+          <div>
+			<header> 
+				<nav> 
+				  <ul>
+                    <a href="../../../index1.php" ><li><img src="../../../images/nav-home.png" /></li></a>
+                    <a href="../../../experience-pcm/" ><li><img src="../../../images/nav-experience.png" /></li></a>
+            <!--        <li><img src="../../../images/nav-learn.png" /></li>  -->
+                    <li><img src="../../../images/nav-teach.png" /></li>
+                    <a href="../../../library/" ><li><img src="../../../images/nav-library-over.png" /></li></a>
+                    <a href="../../../store/products/book1/" ><li><img src="../../../images/nav-shop.png" /></li></a>
+                    <li><img src="../../../images/nav-contact.png" /></li>
+                    <img src="../../../images/dot_orange.png" id="dot-margin"/>
+                    <img src="../../../images/dot_brown.png" id="dot-margin"/>
+                    <img src="../../../images/dot_purple.png" id="dot-margin"/>
+                    <img src="../../../images/dot_red.png" id="dot-margin"/>
+                    <img src="../../../images/dot_yellow.png" id="dot-margin"/>
+                    <img src="../../../images/dot_blue.png" id="dot-margin"/>
+				  </ul>
+				</nav>
+			</header>
+          </div>
+          
+          <div class="content">
+          
+          <div><img src="../images/Research-Publication.jpg" id="research-publication" /></div>
+              
+              <a href="../../../library/"><img src="images/close-button.png" id="close-button" /></a>
+              <a href="../../../library/research-and-publication/"><img src="images/close-button.png" id="close-button1" /></a>
+              <img src="images/ledge.jpg" id="ledge"/>
+              <div class="carousel-wrapper">
+              <div id="allinone_carousel_powerful">
+                  <div class="myloader"></div>
+                    <!-- CONTENT -->
+                    <ul class="allinone_carousel_list">
+                        <li><a href="../../../library/research-and-publication/articles/kco-safety-in-action/"><img src="images/book01.png" alt="" /></li>
+                        <li><img src="images/book02.png" alt="" /></a></li>
+                        <li><img src="images/book03.png" alt="" /></li>
+                        <li><a href="../../../library/research-and-publication/articles/nz-health-and-hospital/"><img src="images/book04.png" alt="" /></a></li>  
+                    </ul> 
+                                                                              
+                  </div>
+              </div>
+              </div>
+   
+           </div>
+           
+          <div id="preload">
+          <img src="../skins/powerful/leftNavOFF.png" />
+          <img src="../skins/powerful/leftNavON.png" />
+          <img src="../skins/powerful/rightNavOFF.png" />
+          <img src="../skins/powerful/rightNavON.png" />
+          </div>
+                   
+	</body>
+
+</html>

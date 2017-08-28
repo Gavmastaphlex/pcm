@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+        <title>Testimonials</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" >
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+    <script type="text/javascript" src="js/video-toggle.js"></script>
+    <script type="text/javascript" src="js/toggle.js"></script>
+    <script type="text/javascript" src="js/video-section-toggle.js"></script>
+    <script type="text/javascript" src="js/button-color-change.js"></script>
+    <script type="text/javascript" src="js/heading-color-change.js"></script>
+    
+
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox()
+        });
+    </script>
+
+    <style>
+
+      #personal-movies{
+        position: relative;
+        top: 2px;
+      }
+
+      #professional-movies{
+        position: relative;
+        top: 2px;
+      }
+
+      #close{
+        position: absolute;
+        left: 941px;
+      }
+
+    </style>
+
+
+  </head>
+  
+  <body>
+    <div id="page-container">
+          <div>
+      <header> 
+        <nav> 
+          <ul>
+                    <a href="http://www.pcmoceania.com/" ><li><img src="../../images/nav-home.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/experience-pcm/" ><li><img src="../../images/nav-experience.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/learn-pcm/" ><li><img src="../../images/nav-learn.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/teach-pcm"><li><img src="../../images/nav-teach.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/library/" ><li><img src="../../images/nav-library-over.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/store/products/book1/" ><li><img src="../../images/nav-shop.png" /></li></a>
+                    <a href="http://www.pcmoceania.com/contact/" ><li><img src="../../images/nav-contact.png" /></li></a>
+                    <img src="../../images/dot_orange.png" id="dot-margin"/>
+                    <img src="../../images/dot_brown.png" id="dot-margin"/>
+                    <img src="../../images/dot_purple.png" id="dot-margin"/>
+                    <img src="../../images/dot_red.png" id="dot-margin"/>
+                    <img src="../../images/dot_yellow.png" id="dot-margin"/>
+                    <img src="../../images/dot_blue.png" id="dot-margin"/>
+          </ul>
+        </nav>
+      </header>
+          </div>
+          <div class="content">
+            
+            <img src="images/Testimonials.jpg" id="testamonials" />
+            
+            <img src="images/downloadableinfo.png" onmouseover="this.src='images/downloadableinfo-over.png'" onmouseout="this.src='images/downloadableinfo.png'" id="downloadable-info-rollover"/>
+
+            <img src="images/whoisusingit.png" onmouseover="this.src='images/whoisusingit-over.png'" onmouseout="this.src='images/whoisusingit.png'" id="who-is-using-rollover"/>
+             
+             <img src="images/trainingoutcome.png" onmouseover="this.src='images/trainingoutcome-over.png'" onmouseout="this.src='images/trainingoutcome.png'" id="trainingoutcome-rollover"/>
+
+             <img src="images/seminarfeedbacks.png" onmouseover="this.src='images/seminarfeedbacks-over.png'" onmouseout="this.src='images/seminarfeedbacks.png'" id="seminarfeedbacks-rollover"/>
+
+             <img src="images/accrediation.png" onmouseover="this.src='images/accrediation-over.png'" onmouseout="this.src='images/accrediation.png'" id="accrediation-rollover"/>
+
+             <img src="images/testimonials-before-hover.png" onmouseover="this.src='images/testimonials-over.png'" onmouseout="this.src='images/testimonials-before-hover.png'" id="testimonial-rollover"/>
+
+              <img src="images/endorsements.png" onmouseover="this.src='images/endorsements-over.png'" onmouseout="this.src='images/endorsements.png'" id="endorsment-rollover"/>
+
+              <a href="http://www.pcmoceania.com/library"><img src="images/close-button.png" id="close" /></a>
+
+
+             <a class="fancybox" href="#video-player"><img src="images/testimonials_tv.png" onmouseover="this.src='images/testimonials_tv-over.png'" onmouseout="this.src='images/testimonials_tv.png'" id="tv-popup-link"/></a>
+
+           
+             <!--            FROM HERE DOWN IS THE VIDEO PLAYER                  -->
+
+            <div id="video-player"> 
+
+
+                  <img src="images/screen680.png" id="video-screen"/> 
+                  <img src="images/menubar_left.png" id="tv-panel1"/> 
+                  <img src="images/menubar_right.png" id="tv-panel2"/>     
+                  
+                  <video id="videoarea" src="" poster="images/poster.png" controls preload="auto" ></video>
+
+
+
+                  <ul id="playlist">
+
+
+                    <div id="culture-movies">
+                      <p id="culture-title" class="videos-title">CULTURE</p>  
+                       <section id="culture-section" style="display: none;">
+                      
+                       <li movieurl="video/interviews/Anthony Dilley_1" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="culture-1" time="0">&nbsp;&#8226; changing corporate <br /><span class="name-push">culture</span></button>
+                      </li>
+
+                      <li movieurl="video/interviews/Anthony Dilley_1" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="culture-2" time="0">&nbsp;&#8226; interacting with <br /><span class="name-push">different cultures</span></button>
+                      </li>
+                    </section>
+                    </div>
+ 
+                    <div id="education-movies">
+                      <p id="education-title" class="videos-title">EDUCATION</p>  
+                      <section id="education-section" style="display: none;">
+                        <li movieurl="video/interviews/Anthony Dilley_1" type="video/mp4" id="myvideo">
+                            <button class="video-button"  id="education-1" time="0"><span class="video-subheading">&nbsp;&#8226;TRAINEES </span>- maintaining <span class="name-push">personal relationships</span></button>
+                            
+                        </li>
+                        <li movieurl="video/interviews/Anthony Dilley_2" type="video/mp4" id="myvideo">
+                            <button class="video-button"  id="education-2" time="0"><span class="video-subheading">&nbsp;&#8226;TRAINEES </span>- managing <span class="name-push">personal relationships</span></button>
+                            
+                        </li>
+                    </section>
+                    </div>
+
+                    <div id="leadership-movies">
+                      <p id="leadership-title" class="videos-title">LEADERSHIP</p>  
+                       <section id="leadership-section" style="display: none;">
+                          <li movieurl="video/interviews/Wayne Pearce_1" type="video/mp4" id="myvideo">
+                              <button class="video-button"  id="leadership-1" time="0">&nbsp;&#8226;PCM the missing piece <br /><span class="name-push">of the puzzle</span></button>
+                              
+                          </li>
+                      </section>
+                    </div>
+
+                    <p class="videos-title" id="relationships-title"> RELATIONSHIPS </p>
+
+                    <section id="relationships-section" style="display: none;">
+                    <div id="personal-movies">
+                      <p id="personal-title" class="videos-title">&#8226;Personal</p>  
+                      <section id="personal-section" style="display: none;">
+                      <li movieurl="video/interviews/William Morrison Part 05" id="myvideo">
+                          <button class="video-button"  id="personal-2" time="0">&nbsp;&#8226; father and son</button>
+                          
+                      </li>
+
+                      <li movieurl="video/interviews/Adele2" id="myvideo">
+                          <button class="video-button"  id="personal-1" time="0">&nbsp;&#8226; motivating your teenager</button>
+                          
+                      </li>
+                    </section>
+                    </div>
+                    
+
+                    <div id="professional-movies">
+                      <p id="professional-title" class="videos-title">&#8226;Professional</p>  
+                      <section id="professional-section" style="display: none;">
+                      
+                      <li movieurl="video/interviews/William Morrison_3"  type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="professional-3" time="0">&nbsp;&#8226;adding fun</button>
+                          
+                      </li>
+
+                      <li movieurl="video/interviews/Wayne Pearce_1" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="professional-1" time="0">&nbsp;&#8226;conflict resolution</button>
+                          
+                      </li>
+                      <li movieurl="video/interviews/William Morrison_1" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="professional-2" time="0">&nbsp;&#8226;improving<br /><span class="name-push"> communications</span></button>
+                         
+                      </li>
+                      
+                  
+                      </section>
+                    </div>
+                    </section>
+
+                    <div id="self-movies">
+                      <p id="self-title" class="videos-title">SELF MANAGMENT</p>  
+                      <section id="self-section" style="display: none;">
+                      <li movieurl="video/interviews/Wayne Pearce_4" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="self-1" time="0">&nbsp;&#8226;managing and <span class="name-push">understanding yourself</span></button>
+                         
+                      </li>
+                      <li movieurl="video/interviews/Wayne Pearce_5" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="self-2" time="0">&nbsp;&#8226;personal growth</button>
+                          
+                      </li>
+                    </section>
+                    </div>
+
+
+                    <div id="sport-movies">
+                      <p id="sport-title" class="videos-title">SPORT</p>  
+                      <section id="sport-section" style="display: none;">
+                      <li movieurl="video/interviews/Wayne Pearce_4" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="sport-1" time="0">&nbsp;&#8226;succeeding in sport</button>
+                          
+                      </li>
+                    </section>
+                    </div>
+
+                    <div id="teaching-movies">
+                      <p id="teaching-title" class="videos-title">TEACHING PCM</p>  
+                       <section id="teaching-section" style="display: none;">
+                      <li movieurl="video/interviews/William Morrison_2" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="teaching-1" time="0">&nbsp;&#8226;engaging your team</button>
+                         
+                      </li>
+
+                      <li movieurl="video/interviews/Wayne Pearce_4" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="teaching-2" time="0">&nbsp;&#8226;pcm compared to <br /><span class="name-push">other tools</span></button>
+                          
+                      </li>
+                    </section>
+                    </div>
+
+                    <div id="team-movies">
+                      <p id="team-title" class="videos-title">TEAM</p>  
+                       <section id="team-section" style="display: none;">
+                      <li movieurl="video/interviews/Anthony Dilley_4" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="team-1" time="0">&nbsp;&#8226;becoming a great <br /><span class="name-push">team player</span></button>
+                      </li>
+
+                      <li movieurl="video/interviews/Adele1" id="myvideo">
+                          <button class="video-button"  id="team-2" time="0">&nbsp;&#8226;improving team <span class="name-push">communication</span></button>
+                          
+                      </li>
+
+                      <li movieurl="video/interviews/William Morrison_4" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="team-3" time="0">&nbsp;&#8226;growing staff</button>
+                          
+                      </li>
+
+                      <li movieurl="video/interviews/Anthony Dilley_2" type="video/mp4" id="myvideo">
+                          <button class="video-button"  id="team-4" time="0">&nbsp;&#8226;team harmony</button>
+                           
+                      </li>
+
+                  
+                    </section>
+
+                    </div>
+
+                  </ul>
+
+      
+                    <ul id="playlist-people">
+                      <li movieurl="video/1.Adele Gillies_short_compressed"  id="myvideopeople">
+                          <button class="video-button right-menu myvideopeople"  id="education-jump" time="0"><span class="video-subheading">ADELE GILLIES</span> -<br />  midwife and mother of <br />
+                           four, xxx hospital, <br />
+                           randwick sydney  </button>
+                      </li>
+
+                      <br />
+
+                      <li movieurl="video/1.Anthony Dilley_compressed" id="myvideopeople4">
+                          <button class="video-button right-menu myvideopeople4" id="relationship-jump" time="0"><span class="video-subheading">ANTHONY DILLEY</span> - <br />
+                          paediatric surgeon, <br />
+                          city east specialist <br /> 
+                          day hospital, <br />
+                          randwick, sydney</button>
+                      </li>
+
+                      <br />
+
+                      <li movieurl="video/1.Shawn Sturland_compressed" id="myvideopeople5">
+                          <button class="video-button right-menu" id="relationship-jump" time="0"><span class="video-subheading">SHAWN STURLAND</span></button>
+                      </li>
+
+                      <br />
+
+                     
+                      <li movieurl="video/1.Wayne Pearce _short_compressed" id="myvideopeople3">
+                          <button class="video-button right-menu myvideopeople3" id="relationship-jump" time="0"><span class="video-subheading">WAYNE PEARCE</span> - <br /> 
+                            business coach, retired<br /> 
+                            rugby league coach,<br /> 
+                            captain balmain tigers <br /> 
+                            1982 - 1990, sydney</button>
+                      </li>
+
+                      <br />
+
+                       <li movieurl="video/William Morrison Full With Parts" id="myvideopeople2">
+                          <button class="video-button right-menu myvideopeople2" id="relationship-jump" time="0"><span class="video-subheading">WILLIAM MORRISON</span> - <br /> CEO railcorp sydney</button>
+                      </li>
+
+                      <br />
+
+
+                      <li movieurl="video/1.Zoltan Hendre_short_compressed" id="myvideopeople6">
+                          <button class="video-button right-menu" id="relationship-jump" time="0"><span class="video-subheading">ZOLTAN ENDRE </span>-<br />  
+                               head of deprartment of
+                               nephrology, prince of<br /> 
+                               wales hospital. <br />
+                               professor of medicine, <br />
+                               university of <br />
+                               new south wales,<br />
+                               randwick.
+                           </button>
+                      </li>
+
+                    </ul>
+
+
+                    <ul id="william-buttons" style="display: none;">
+                          <li movieurl="video/William Morrison Full With Parts">
+                          
+                          <img src="images/videoplayer/Button-1.png" class="tv-button-image-1"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-1" time="0">video 1</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-2"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-2"  time="37">video 2</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-3"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-3"  time="81">video 3</button>
+
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-4"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-4"  time="132">video 4</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-5"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-5"  time="167">video 5</button>
+
+                          <img src="images/videoplayer/Button-6.png" class="tv-button-image-full"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-full"  time="0">Play full interview</button>
+                    </ul>
+
+                     <ul id="wayne-buttons" style="display: none;">
+                          <li movieurl="video/1.Wayne Pearce _short_compressed">
+
+                          <img src="images/videoplayer/Button-1.png" class="tv-button-image-1"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-1" time="4">scene 1</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-2"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-2"  time="8">scene 2</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-3"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-3"  time="17">scene 3</button>
+
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-4"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-4"  time="121">scene 4</button>
+
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-5"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-5"  time="121">scene 5</button>
+
+                          <img src="images/videoplayer/Button-6.png" class="tv-button-image-full"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-full"  time="0">Play full interview</button>
+                    </ul>
+
+                    <ul id="adele-buttons" style="display: none;">
+                          <li movieurl="video/1.Adele Gillies_short_compressed">
+                          
+                          <img src="images/videoplayer/Button-1.png" class="tv-button-image-1"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-1" time="4">scene 1</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-2"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-2"  time="8">scene 2</button>
+                          
+                          <img src="images/videoplayer/Button-6.png" class="tv-button-image-full"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-full"  time="0">Play full interview</button>
+                    </ul>
+
+                    <ul id="anthony-buttons" style="display: none;">
+                          <li movieurl="video/1.Anthony Dilley_compressed">
+
+                          <img src="images/videoplayer/Button-1.png" class="tv-button-image-1"/> 
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-1" time="4">scene 1</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-2"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-2"  time="8">scene 2</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-3"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-3"  time="17">scene 3</button>
+                          
+                          <img src="images/videoplayer/Button-2.png" class="tv-button-image-4"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-4"  time="121">scene 4</button>
+                          
+                          <img src="images/videoplayer/Button-6.png" class="tv-button-image-full"/>
+                          <button class="video-button left-menu tv-bottom-buttons tv-button-full"  time="0">Play full interview</button>
+                    </ul>
+
+
+                  </div>
+                
+                   
+
+       
+<script type="text/javascript"> 
+   
+
+
+
+     var myvideo = document.getElementById("videoarea")
+
+    $(".video-button").on("click", function() {
+      
+      vid = $(this).parent().attr("movieurl")
+      var v = document.createElement("video")
+      if (v.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"')=="probably") {
+          vid = vid + ".mp4"
+        } else if (v.canPlayType('video/ogg; codecs="vp8, vorbis"')=="probably") {
+          vid = vid + ".webm"
+      } else {
+          vid = vid + ".ogg"
+      }
+      
+        // if we need to load a new video do so
+        if ($("#videoarea").attr("src") != vid) {
+            $("#videoarea").attr({
+                "src": vid,
+                "poster": "",
+                // load a fake attribute with the desired start time
+                "starttime": $(this).attr("time")})
+            $("#videoarea").on("canplay",function() {
+                // set the current time to the fake attribute
+                myvideo.currentTime=$(this).attr("starttime")
+                myvideo.play();
+                // remove the event to stop it triggering multiple times
+                $("#videoarea").off("canplay")
+            })
+        } else {
+            // if the video URL didn't change, just adjust the time
+            myvideo.currentTime=$(this).attr("time")
+        }
+    })
+  
+     </script>
+
+
+          <div id="preload">
+          <img src="images/trainingoutcome-over.png"  />
+          <img src="images/downloadableinfo-over.png"  />
+          <img src="images/seminarfeedbacks-over"  />
+          <img src="images/accrediation-over.png"  />
+          <img src="images/testimonials-over.png"  />
+          </div>
+          
+  </body>
+
+</html>
